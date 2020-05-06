@@ -2,12 +2,12 @@
 
 > Build docker image
 ```
-  $ docker build --no-cache --tag=gcr.io/wn-cloud-275704/cloud-portal-service:1.0 .
+  $ docker build --no-cache --tag=sameerat8/cloud-portal-service:1.0 .
 ```
 
 >Start Docker with a name for in case of need to log into docker
 ```
-  $ docker run --name cloud-portal-service -it gcr.io/wn-cloud-275704/cloud-portal-service:1.0
+  $ docker run --name cloud-portal-service -it sameerat8/cloud-portal-service:1.0
 ```
 
 > log in to docker using above name (First run docker using above CMD)
@@ -23,6 +23,6 @@
 
 > Push to gcr
 ```
-  $ docker push gcr.io/wn-cloud-275704/cloud-portal-service:1.0
+  $ docker push sameerat8/cloud-portal-service:1.0
 ```
 # Wildfly-Docker-with-Mysql-driver
